@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #350179;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #25025e;
+    color: #ecf0f1;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+}
+
+section,
+p,
+h3 {
+    color: #ffffff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header, 
+section h2,
+section h3,
+section h1,
+form button {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin:0 auto;
+}
+
+div .container h3 p {
+    padding: 20px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 p {
+    margin-top: 20%;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+
+}
+ul.social-links {
+    margin-left: 250px;
+}
+section h3{
+    margin-left: 250px;
+}
+.meu-paragrafo {
+    margin-left: 250px;
+}
+
+img {
+    margin-top: 10px;
+    margin-right: 32px;
+    margin-bottom: 25px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+section p {
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+section h2 {
+margin-left: 550px;
+margin-bottom: 15px ;
+}
+
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li a {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none ;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #5301be;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+textarea::placeholder {
+    color: #ffffff;
+}
+
+form textarea {
+    resize: none;
+    height: 180px ;
+    background-color: #5301be;
+}
+form button:hover {
+    background-color: #7a28d8;
+    color: #ffffff;
+}
+form button {
+    color: #fff;
+}
+
+
+
+
+footer {
+    background-color: #2b0070;
+    color: #ecf0f1;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    padding: 16px;
+}
+
